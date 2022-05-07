@@ -18,40 +18,40 @@ const Banner = () => {
       <Carousel.Item className="banner">
         <img className="d-block w-100" src={banner1} alt="First slide" />
         <Carousel.Caption>
-          <h3>Harry & Emily</h3>
-          <p>For couples who love a little romance, a lot of laughter, and authentic moments.</p>
+          <h2>SHIPMENTS DELIVERED ON TIME</h2>
+          <p>We provides always original product.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="banner">
         <img className="d-block w-100" src={banner2} alt="Second slide" />
 
         <Carousel.Caption>
-          <h3>Jack & Amelia</h3>
-          <p>For couples who love a little romance, a lot of laughter, and authentic moments.</p>
+          <h2>SHIPMENTS DELIVERED ON TIME</h2>
+          <p>We provides always original product.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="banner">
         <img className="d-block w-100" src={banner3} alt="Third slide" />
 
         <Carousel.Caption>
-          <h3>Oscar & Emily</h3>
-          <p>For couples who love a little romance, a lot of laughter, and authentic moments.</p>
+          <h2>SHIPMENTS DELIVERED ON TIME</h2>
+          <p>We provides always original product.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="banner">
         <img className="d-block w-100" src={banner4} alt="Third slide" />
 
         <Carousel.Caption>
-          <h3>Thomas & Jessica</h3>
-          <p>For couples who love a little romance, a lot of laughter, and authentic moments.</p>
+          <h2>SHIPMENTS DELIVERED ON TIME</h2>
+          <p>We provides always original product.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="banner">
         <img className="d-block w-100" src={banner5} alt="Third slide" />
 
         <Carousel.Caption>
-          <h3>James & Isabella</h3>
-          <p>For couples who love a little romance, a lot of laughter, and authentic moments.</p>
+          <h2>SHIPMENTS DELIVERED ON TIME</h2>
+          <p>We provides always original product.</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

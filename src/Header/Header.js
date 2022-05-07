@@ -20,21 +20,25 @@ const Header = () => {
               <Nav.Link as={Link} to="/home">
                 Home
               </Nav.Link>
-              <Nav.Link as={Link} to="/services">
-                Services
-              </Nav.Link>
-              <Nav.Link as={Link} to="/reviews">
-                Reviews
-              </Nav.Link>
               <Nav.Link as={Link} to="/blogs">
-                Blogs
+                Blog
               </Nav.Link>
-              <Nav.Link as={Link} to="/about">
-                About me
+              {user ? 
+              <React.Fragment>
+                <Nav.Link as={Link} to="/home">
+                Manage Items
               </Nav.Link>
-              {user ? (<Nav.Link onClick={() => signOut(auth)} as={Link} to="/">
+              <Nav.Link as={Link} to="/home">
+                Add Items
+              </Nav.Link>
+              <Nav.Link as={Link} to="/home">
+                My Items
+              </Nav.Link>
+                <Nav.Link onClick={() => signOut(auth)} as={Link} to="/">
                 Logout
-              </Nav.Link>) : (<Nav.Link as={Link} to="/login">
+              </Nav.Link>
+              </React.Fragment>
+              : (<Nav.Link as={Link} to="/login">
                 Login
               </Nav.Link>)
               }
