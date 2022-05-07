@@ -1,0 +1,92 @@
+[
+      {
+        "name": "YAMAHA R15 v4",
+        "price": "TK.5,10000/=",
+        "supplierName":"YAMAHA",
+        "revname": "Jack Thomas",
+        "quantity":"10",
+        "description":"The Yamaha YZF R15 V3 is powered by a 155 cc air-cooled engine which produces of power. It has a fuel tank of 11 L",
+        "review":"I loved this bike and it is my first bike, giving good mileage approx 40kmpl, and it is very comfortable to ride.",
+        "img":"https://www.motorbeam.com/wp-content/uploads/Yamaha-R15-V3.0-Racing-Yellow.jpg"
+      },
+      {
+        "name": "HONDA CBR 150R",
+        "price": "TK.5,00000/=",
+        "supplierName":"HONDA",
+        "revname": "Abraham ch.",
+        "quantity":"9",
+        "description":"Honda has confirmed that it is investigating the 150cc segment and that it will make an announcement sooner or later",
+        "review":"This is a very amazing bike, it cannot be compared to any other bike. The looks are good and amazing.",
+        "img":"https://images.hindustantimes.com/rf/image_size_640x362/HT/p1/2012/11/05/Incoming/Pictures/955207_Wallpaper2.jpg"
+      },
+      {
+        "name": "YAMAHA Fzs v3",
+        "price": "TK.2,40000/=",
+        "supplierName":"YAMAHA",
+        "revname": "Charlie chap.",
+        "quantity":"12",
+        "description":"Yamaha has launched a new Deluxe variant of the FZ-S for 2022. It comes wrapped in three new liveries and packs a couple of new features.",
+        "review":"Best in the segment, Best riding performance, Comfort could be more better, and Mileage should be more.",
+        "img":"https://media.zigcdn.com/media/model/2022/Jan/front-right-view-845924761_600x400.jpg"
+      },
+      {
+        "name": "KTM 200 Duke",
+        "price": "TK.4,10000/=",
+        "supplierName":"KTM",
+        "revname": "Marie n.",
+        "quantity":"8",
+        "description":"KTM has hiked prices across its lineup, ranging from as low as Rs 512 to as high as almost Rs 12,000. To know the latest prices of your favourite KTM bike,",
+        "review":"This bike has an awesome look and a front LED light available. This bike is a very comfortable bike. My personal choice.",
+        "img":"https://images.unsplash.com/photo-1598209279122-8541213a0387?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8a3RtfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+      },
+      {
+        "name": "Royel Enfield classic 350",
+        "price": "TK.5,00000/=",
+        "supplierName":"Royel Enfield",
+        "revname": "Mack john",
+        "quantity":"10",
+        "description":"The updated Royal Enfield Classic 350 is powered by the Meteor 350’s 349cc single-cylinder counterbalanced air-cooled engine, churning out 20.2PS at 6100rpm and 27Nm at 4000rpm.",
+        "review":"This bike is a good and overall a good experience. Mileage is average, there is less vibration at high speed. Handling is good, for me, it is quite comfortable and if I compare this with other bikes it is too good.",
+        "img":"https://www.royalenfield.com/content/dam/royal-enfield/india/motorcycles/classic-350/landing/classic-350-motorcycle.jpg"
+      },
+      {
+        "name": "Benelli TRK 251",
+        "price": "TK.5,20000/=",
+        "supplierName":"Benelli",
+        "revname": "Pooran D.",
+        "quantity":"5",
+        "description":"It’s powered by a 249cc, single-cylinder engine putting out 26PS and 21.1Nm. The motor comes mated to a six-speed gearbox.",
+        "review":"Have been riding this beautiful machine for a month now. Really happy with the overall performance.",
+        "img":"https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20220120094522_TRK25.jpg&w=726&h=482&q=75&c=1"
+      },
+      {
+        "name": "Bajaj Pulsar 150 ABS",
+        "price": "TK.1,95000/=",
+        "supplierName":"Bajaj",
+        "revname": "Anderli k.",
+        "quantity":"18",
+        "description":"The Bajaj Pulsar 150 is one of the most popular commuters available in India. A next-generation iteration of the Pulsar 150 was spotted testing, ",
+        "review":"This bike has almost every feature that a normal rider needs such as Tachometer and a digital speedometer. ",
+        "img":"https://cdn.bajajauto.com/-/media/Assets/bajajauto/bikes/pulsar-150/Gallery/Images/POPUP-Images/5.ashx"
+      },
+      {
+        "name": "TVS Apache RTR 4v",
+        "price": "TK.1,90000/=",
+        "supplierName":"TVS",
+        "revname": "Kadir sh.",
+        "quantity":"20",
+        "description":"The TVS Apache RTR 165 RP was launched in India at Rs 1,45,000 (ex-showroom pan-India) in December 2021, limited to just 200 units.",
+        "review":"The riding experience is very good. It's fun to ride this bike.",
+        "img":"https://images.hindustantimes.com/auto/img/2021/10/08/600x338/TVS_Apache_RTR_160_4V_Special_Edition_1633676544353_1633676551542.jpg"
+      },
+      {
+        "name": "HERO Xtreme 160R",
+        "price": "TK.1,70000/=",
+        "supplierName":"HERO",
+        "revname": "Devit mack",
+        "quantity":"15",
+        "description":"The Hero Xtreme 160R’s price is Rs 1,11,610 (for the base rear drum brake variant). The most notable feature on the Xtreme 160R is the segment-first all-LED lighting system.",
+        "review":"I am using this bike since Oct 2020. The power of the bike is decent at that price.",
+        "img":"https://static.autox.com/uploads/2020/03/Hero-Xtreme-160R-image-1-.jpg"
+      }
+    ]

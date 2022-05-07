@@ -1,10 +1,12 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
+import Products from '../Products/Products';
 
 const Home = () => {
     return (
         <>
             <Banner></Banner>
+            <Products></Products>
             {/* <div className='container'>
             <h2 className='text-primary text-center mt-5 mb-4'> Our Packages</h2>
             <div className='services-container'>

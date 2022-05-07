@@ -80,9 +80,7 @@
     color: red;
     margin:10px;
 }
-/* .error-message::before{
-    content: "❌ ";
-} */
+
 .sign-up-now{
     margin-top: 15px;
 }
