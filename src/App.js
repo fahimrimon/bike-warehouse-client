@@ -3,6 +3,8 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
 import Header from './Header/Header';
+import Login from './components/Login/Login';
+import SignUp from './components/SignUp/SignUp';
 
 function App() {
   return (
@@ -14,9 +16,9 @@ function App() {
        {/* <Route path='/services' element={<Services></Services>}></Route>
        <Route path='/reviews' element={<Reviews></Reviews>}></Route>
        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
-       <Route path='/about' element={<About></About>}></Route>
+       <Route path='/about' element={<About></About>}></Route> */}
        <Route path='/login' element={<Login></Login>}></Route>
-       <Route path='/signup' element={<SignUp></SignUp>}></Route> */}
+       <Route path='/signup' element={<SignUp></SignUp>}></Route>
        {/* <Route path='/checkout' element={<RequireAuth>
          <CheckOut></CheckOut>
        </RequireAuth>}></Route> */}
