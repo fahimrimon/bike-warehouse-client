@@ -31,7 +31,7 @@ const Header = () => {
               <Nav.Link as={Link} to="/additem">
                 Add Items
               </Nav.Link>
-              <Nav.Link as={Link} to="/home">
+              <Nav.Link as={Link} to="/manage">
                 My Items
               </Nav.Link>
                 <Nav.Link onClick={() => signOut(auth)} as={Link} to="/">

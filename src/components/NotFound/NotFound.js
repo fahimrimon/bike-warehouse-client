@@ -1,9 +1,9 @@
 import React from "react";
-
+import "./NotFound.css";
 const NotFound = () => {
   return (
-    <div>
-      <h2>not found</h2>
+    <div className="notfound container">
+      <img src="https://miro.medium.com/max/800/1*hFwwQAW45673VGKrMPE2qQ.png" alt="" />
     </div>
   );
 };
