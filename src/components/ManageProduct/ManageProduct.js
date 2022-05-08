@@ -1,15 +1,17 @@
 import React from 'react';
 import Footer from '../Footer/Footer';
+import Products from '../Products/Products';
 
-const Blogs = () => {
+const ManageProduct = () => {
+    
     return (
         <div>
             <div>
-            <h2>Blogs sec...</h2>
+            <Products></Products>
         </div>
         <Footer></Footer>
         </div>
     );
 };
 
-export default Blogs;
+export default ManageProduct;

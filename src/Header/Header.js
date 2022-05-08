@@ -25,7 +25,7 @@ const Header = () => {
               </Nav.Link>
               {user ? 
               <React.Fragment>
-                <Nav.Link as={Link} to="/home">
+                <Nav.Link as={Link} to="/manage">
                 Manage Items
               </Nav.Link>
               <Nav.Link as={Link} to="/additem">
