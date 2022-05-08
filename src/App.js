@@ -11,6 +11,7 @@ import Products from "./components/Products/Products";
 import ProductDetails from "./components/ProductDetails/ProductDetails";
 import AddItems from "./components/AddItems/AddItems";
 import ManageProduct from "./components/ManageProduct/ManageProduct";
+import Reviews from "./components/Reviews/Reviews";
 
 function App() {
   return (
@@ -20,9 +21,9 @@ function App() {
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/home" element={<Home></Home>}></Route>
         <Route path='/product' element={<Products></Products>}></Route>
-       {/* <Route path='/reviews' element={<Reviews></Reviews>}></Route> */}
+       <Route path='/reviews' element={<Reviews></Reviews>}></Route>
        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
-       {/* <Route path='/about' element={<About></About>}></Route> */}
+       <Route path='/about' element={<Blogs></Blogs>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/signup" element={<SignUp></SignUp>}></Route>
         <Route path='/product/:productId' element={<RequireAuth>

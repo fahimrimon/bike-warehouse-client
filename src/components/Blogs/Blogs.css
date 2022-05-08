@@ -1,0 +1,7 @@
+.ans-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.ques{
+    border: 1px solid red;
+}
