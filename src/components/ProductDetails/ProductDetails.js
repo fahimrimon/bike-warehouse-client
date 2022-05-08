@@ -9,7 +9,7 @@ const ProductDetails = () => {
   const [reload, setReload] = useState(true);
 
   useEffect(() => {
-    const url = `http://localhost:5000/product/${productId}`;
+    const url = `https://afternoon-shelf-85047.herokuapp.com/product/${productId}`;
     console.log(url);
     fetch(url)
       .then((res) => res.json())
@@ -22,7 +22,7 @@ const ProductDetails = () => {
     const newQuantity = { quantity };
     console.log(newQuantity);
 
-    const url = `http://localhost:5000/product/${productId}`;
+    const url = `https://afternoon-shelf-85047.herokuapp.com/product/${productId}`;
     console.log(url);
     fetch(url, {
       method: "PUT",
@@ -44,7 +44,7 @@ const ProductDetails = () => {
     const quantity1 = event.target.quantity.value;
     const quantity = qu + parseInt(quantity1);
     const quantity2 = { quantity };
-    const url = `http://localhost:5000/product/${productId}`;
+    const url = `https://afternoon-shelf-85047.herokuapp.com/product/${productId}`;
 
     fetch(url, {
       method: "PUT",

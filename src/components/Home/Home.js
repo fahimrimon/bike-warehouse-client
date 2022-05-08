@@ -7,13 +7,13 @@ import Reviews from "../Reviews/Reviews";
 import Services from "../Services/Services";
 
 const Home = () => {
-    const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState([]);
 
-    useEffect(() => {
-      fetch("http://localhost:5000/product")
-        .then((res) => res.json())
-        .then((data) => setProducts(data));
-    }, []);
+  useEffect(() => {
+    fetch("https://afternoon-shelf-85047.herokuapp.com/product")
+      .then((res) => res.json())
+      .then((data) => setProducts(data));
+  }, []);
   return (
     <>
       <Banner></Banner>
@@ -28,7 +28,7 @@ const Home = () => {
         </div>
       </div>
       <Link to="/manage">
-      <button className='btn btn-info mt-5 mb-5'>Manage All Product</button>
+        <button className="btn btn-info mt-5 mb-5">Manage All Product</button>
       </Link>
       <Services></Services>
       <Reviews></Reviews>
