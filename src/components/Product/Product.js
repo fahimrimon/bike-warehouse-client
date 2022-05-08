@@ -35,7 +35,7 @@ const Product = ({product}) => {
             <p>Quantity: {quantity}</p>
             <p><small>{description}</small></p>
             <button onClick={() => navigateToProductDetail(_id)} className='btn btn-primary mx-2'>Manage Item</button>
-            <button onClick={() => handleDelete(product._id)} className='btn btn-primary'>Delete Item</button>
+            <button onClick={() => handleDelete(product._id)} className='btn btn-danger'>Delete Item</button>
         </div>
     );
 };

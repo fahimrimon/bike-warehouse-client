@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import Banner from "../Banner/Banner";
 import Footer from "../Footer/Footer";
 import Product from "../Product/Product";
+import Reviews from "../Reviews/Reviews";
+import Services from "../Services/Services";
 
 const Home = () => {
     const [products, setProducts] = useState([]);
@@ -26,8 +28,10 @@ const Home = () => {
         </div>
       </div>
       <Link to="/manage">
-      <button className='btn btn-primary mt-5 mb-5'>Manage All Product</button>
+      <button className='btn btn-info mt-5 mb-5'>Manage All Product</button>
       </Link>
+      <Services></Services>
+      <Reviews></Reviews>
       <Footer></Footer>
     </>
   );

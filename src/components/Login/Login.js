@@ -60,6 +60,7 @@ const Login = () => {
     navigate(from, { replace: true });
   }
 
+
   return (
     <div className="login-container">
       <div className="login-title">LOGIN</div>
@@ -72,6 +73,7 @@ const Login = () => {
         <p className="sign-up-now">
           Don't have an account? <Link to="/signup">Sign up now</Link>{" "}
         </p>
+        <p>Forget Password? <button className='btn btn-link text-white pe-auto text-decoration-none' >Reset Password</button> </p>
       </form>
       <button onClick={() => signInWithGoogle()}>Login with Google</button>
     </div>

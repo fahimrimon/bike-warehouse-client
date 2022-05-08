@@ -1,4 +1,5 @@
 // import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import useProducts from "../hooks/useProducts";
 import Product from "../Product/Product";
 import "./Products.css";
@@ -39,6 +40,9 @@ const Products = () => {
           ))}
         </div>
       </div>
+      <Link to="/additem">
+      <button className='btn btn-info mt-5 mb-5'> Please Add Item</button>
+      </Link>
     </div>
   );
 };
